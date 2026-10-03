@@ -1,0 +1,187 @@
+{
+  "symbols": {
+    "engine_call": 1333152,
+    "engine_open": 1338080,
+    "engine_wide": 1339408,
+    "engine_bool": 1340048,
+    "engine_int": 1338752,
+    "engine_assign": 989248,
+    "engine_hex_player": 5317440,
+    "engine_tier": 7478240,
+    "engine_end": 1338336,
+    "engine_focus": 1335712,
+    "engine_close_ac": 6826768,
+    "engine_hud": 6126208,
+    "engine_actions": 6682640,
+    "engine_state": 1143584,
+    "engine_free": 1598176,
+    "engine_name": 7468400,
+    "engine_push": 1341792,
+    "engine_show": 2538912,
+    "engine_notify": 7636416,
+    "engine_refresh": 5098704,
+    "engine_list_resize": 4539488,
+    "engine_realloc": 910176,
+    "engine_tree_find": 973856,
+    "enter_cs_iat": 11370640,
+    "leave_cs_iat": 11370644,
+    "close_ac_resume": 6826813,
+    "close_ac_epilogue": 6827374,
+    "close_ac_commit": 6826859,
+    "close_ac_cleanup": 6826991,
+    "battle_set_state": 6827520,
+    "ui_entry_resume": 5556599,
+    "ui_exit_resume": 5557030,
+    "ui_refresh_resume": 5559845,
+    "manual_resume": 5562582,
+    "auto_resume": 5562838,
+    "retreat_resume": 5563142,
+    "ready_done": 5565055,
+    "ready_resume": 5565036,
+    "engine_battle_update": 6827392,
+    "manager_dtor_resume": 6824949,
+    "setup_units": 5103328,
+    "result_units_resume": 5104629,
+    "unit_resume": 5104302,
+    "combat_complete": 6523488,
+    "rename_click_resume": 5502485,
+    "rename_exit_resume": 5584822,
+    "rename_submit_resume": 5583765,
+    "state_rva": 15892480,
+    "tooltip_health_resume": 5007229
+  },
+  "hooks": [
+    {
+      "rva": 6826807,
+      "expected": "8b96a0000000",
+      "symbol": "retry_entry",
+      "opcode": 233
+    },
+    {
+      "rva": 6827366,
+      "expected": "538bcee892000000",
+      "symbol": "retry_finish",
+      "opcode": 233
+    },
+    {
+      "rva": 5556592,
+      "expected": "53578bf98b4f0c",
+      "symbol": "ui_entry_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5557024,
+      "expected": "568bf18b460c",
+      "symbol": "ui_exit_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5559840,
+      "expected": "558bec6aff",
+      "symbol": "ui_refresh_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5562576,
+      "expected": "558bec83ec08",
+      "symbol": "manual_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5562832,
+      "expected": "558bec83ec0c",
+      "symbol": "auto_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5563136,
+      "expected": "568bf08b460c",
+      "symbol": "retreat_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5565030,
+      "expected": "8b8f2c010000",
+      "symbol": "ready_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 6979148,
+      "expected": "e82faffdff",
+      "symbol": "world_tick_hook",
+      "opcode": 232
+    },
+    {
+      "rva": 6824944,
+      "expected": "558bec6aff",
+      "symbol": "manager_dtor_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5104624,
+      "expected": "558bec6aff",
+      "symbol": "result_units_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5104296,
+      "expected": "8b43048b4b08",
+      "symbol": "unit_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 6842142,
+      "expected": "e83d23fbff",
+      "symbol": "combat_report_hook",
+      "opcode": 232
+    },
+    {
+      "rva": 5502480,
+      "expected": "558bec6aff",
+      "symbol": "rename_click_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5019576,
+      "expected": "e8e3bfc7ff",
+      "symbol": "rename_panel_hook",
+      "opcode": 232
+    },
+    {
+      "rva": 5584807,
+      "expected": "5f5e5bc20400",
+      "symbol": "rename_opened_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5584816,
+      "expected": "568bf18b460c",
+      "symbol": "rename_exit_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 5583760,
+      "expected": "558bec6aff",
+      "symbol": "rename_submit_hook",
+      "opcode": 233
+    },
+    {
+      "rva": 3194784,
+      "expected": "558bec6aff",
+      "symbol": "telemetry_disabled",
+      "opcode": 233
+    },
+    {
+      "rva": 3197824,
+      "expected": "558bec6aff",
+      "symbol": "telemetry_disabled",
+      "opcode": 233
+    },
+    {
+      "rva": 5007220,
+      "expected": "8b43288b8be8010000",
+      "symbol": "tooltip_health_hook",
+      "opcode": 233
+    }
+  ]
+}
